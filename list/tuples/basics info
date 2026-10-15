@@ -1,0 +1,4 @@
+list can be modified but tuples can't modified by accidently
+student = ("isme ham apna content likhenge")
+list and tuples are used for storing the multiple values
+tuples= storing fixed information
