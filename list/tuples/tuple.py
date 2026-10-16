@@ -39,16 +39,28 @@
 # print("Teacher Course:",classs)
 
 # calculate percentage of student
-student= ("rohit",100,90,70,60 )
-name,maths,science,social,english = student
-total = maths+science+social+english
-percentage = (total/400)*100
+# student= ("rohit",100,90,70,60 )
+# name,maths,science,social,english = student
+# total = maths+science+social+english
+# percentage = (total/400)*100
+# print("Name:",name)
+# print("Total Marks:",total)
+# print("Percentage:",percentage)
+
+
+# a=(1,2,3,4,5)
+# b=(6,7,8,9,10)
+# c=a+b
+# print(c)
+
+student = ("ram",42038,"CST","first",30)
+name= student[0]
+rollno= student[1]
+subject= student[2]
+semester= student[3]
+age= student[4]
 print("Name:",name)
-print("Total Marks:",total)
-print("Percentage:",percentage)
-
-
-a=(1,2,3,4,5)
-b=(6,7,8,9,10)
-c=a+b
-print(c)
+print("Roll No:",rollno)
+print("Subject:",subject)
+print("Semester:",semester)
+print("Age:",age)
