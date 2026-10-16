@@ -19,3 +19,8 @@ print(text[2:5])
 #end
 text = "python"
 print(text[3:])
+
+#complete string
+text = "python"
+print(text[:])
+print (text[0:])
